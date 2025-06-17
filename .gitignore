@@ -1,0 +1,32 @@
+# .gitignore
+# Django
+*.sqlite3
+*.pyc
+__pycache__/
+db.sqlite3
+.env
+
+# Virtual Environment
+venv/
+venv*/
+
+# IDE
+.vscode/
+.idea/
+
+# Large files
+*.mp3
+*.wav
+*.zip
+
+venv/
+venv*/
+*.dll
+*.lib
+*.pyd
+
+# Add to .gitignore
+*.pth
+*.bin
+*.h5
+*.pt
